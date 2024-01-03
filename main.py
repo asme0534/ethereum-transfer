@@ -13,7 +13,7 @@ else:
     web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # check connecting web3 to Ganache
-if  is_connected() == True:
+if  web3 is_connected() == True:
     print("started")
 else :
     print("error connecting...")

@@ -7,7 +7,7 @@ ganache_url = "HTTP://127.0.0.1:8545"
 
 # infura apikey
 infura_apikey = "e4db0eb0005b4129bc5f79095657cb51" 
-infura_url= f"https://mainnet.infura.io/v3/e4db0eb0005b4129bc5f79095657cb51"
+infura_url= f"https://mainnet.infura.io/v3/e4db0eb0005b4129bc5f79095657cb51{infura_apikey}"
 
 
 # Public key & Private key accounts
